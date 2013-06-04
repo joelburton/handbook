@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Flat UI</title>
+    <title>Hackbright Academy | Student Handbook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Loading Bootstrap -->
@@ -48,7 +48,7 @@
                 <li>
                     Correct people when they make conceptual mistakes
                     <ul>
-                        <li><p data-toggle="tooltip" title="One of the biggest things we teach people here is confidince. Corrections mostly point out wrongness, without adding much information. When someone makes many errors, write it up as feedback, but don't point things out while they're talking.">But not when they make minor errors.</p></li>
+                        <li><p class="tt" data-toggle="tooltip" title="One of the biggest things we teach people here is confidince. Corrections mostly point out wrongness, without adding much information. When someone makes many errors, write it up as feedback, but don't point things out while they're talking.">But not when they make minor errors.</p></li>
                         <li>Make sure your correction actually helps someone learn, instead of showing off what you know.</li>
                     </ul>
                 </li>
@@ -134,7 +134,7 @@
             <li>Sleep. Seriously, you can't not sleep.</li>
             <li>Eat. Real food - make yourself something, or eat some Free Food from the fridge.</li>
             <li>Drink Water. Don't drink soda, don't drink tea or coffee until you've had at least one cup of water. Keep track of it somewhere. Get half your body weight(in lbs) in ounces, per day.</li>
-            <li>Caffiene is your friend, but it's not liquid sleep. Seriously, go to sleep.</li>
+            <li>Caffeine is your friend, but it's not liquid sleep. Seriously, go to sleep.</li>
             <li>If you're sick, don't come in. Be actually sick though, not just overwhelmed.</li>
             <li>If you're overwhelmed, talk to us. We are experts at helping with this feeling, and we want to help.</li>
           </ul>
@@ -171,5 +171,13 @@
     <script src="js/jquery.stacktable.js"></script>
     <script src="http://vjs.zencdn.net/c/video.js"></script>
     <script src="js/application.js"></script>
+    <script>
+      $('.tt').tooltip({'placement':'bottom', 'trigger':'hover'});
+      $(document).ready(function() {
+        $('.tt').tooltip('hide');
+      });
+      
+
+    </script>
   </body>
 </html>
