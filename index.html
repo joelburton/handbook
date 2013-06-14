@@ -42,11 +42,24 @@
         <div class="span6">
           <h2>Internal</h2>
             <ul>
-                <li>Ask questions</li>
-                <li>Answer questions</li>
-                <li>Speak up</li>
                 <li>
-                    Correct people when they make conceptual mistakes
+                  Ask questions.
+                  <ul>
+                    <li>Ask questions during lectures - you aren't holding up the class. Asking things causes us to explain it more throughly - and you'll get <span class="tt" data-toggle="tooltip" title="Literal points - for your house/team/army.">points</span> for doing it.</li>
+                    <li>Ask questions of yourself, and your code. If you don't know what a statement does, or how a function works, make sure you ask someone. The important thing is to make sure you understand what you're doing.</li>
+                    <li>Ask questions while working - you'll pair for a large part of the program, and hopefully you'll pair for some of the other time you're here. You'll also pair frequently with your mentor - tell everyone you work with your thinking process, and how you got the code you did.</li>
+                    <li>Understanding is a process, aided by asking. Remember that <strong>asking doesn't mean you don't know something - it means you're about to.</strong></li>
+                  </ul>
+                </li>
+                <li>
+                  Answer questions.
+                  <ul>
+                    <li>If you think you know the answer, mention it. This helps you to understand concepts better. It also enforces that you actually know something, rather than not being clear on it.</li>
+                  </ul>
+                </li>
+                <li>Speak up.</li>
+                <li>
+                    Correct people when they make conceptual mistakes.
                     <ul>
                         <li><span class="tt" data-toggle="tooltip" title="One of the biggest things we teach people here is confidince. Corrections mostly point out wrongness, without adding much information. When someone makes many errors, write it up as feedback, but don't point things out while they're talking.">But not when they make minor errors.</span></li>
                         <li>Make sure your correction actually helps someone learn, instead of showing off what you know.</li>
@@ -55,6 +68,7 @@
                 <li>Share knowledge. If you learn something, teach it to someone else. This helps you learn it better.</li>
                 <li>Say "I don't know" at least once a day.</li>
                 <li>Solve your own "I don't know", at least once a day.</li>
+                <li>Ask for things you want, don't wait for someone to realize you need something</li>
             </ul>
         </div>
         <div class="span6">
@@ -226,15 +240,14 @@
           </ul>
           <p>The first week starts with a crash course in basic unix operations and utilities. Students are encouraged to stay in the command line as much as possible. They are introduced to basic programming concepts: flow control, data types, and functions. Git and github are introduced, along with the idea of coding guidelines. Students build several command line utilities to practice basic string parsing, including a prefix calculator.</p>
 
-
-          <p><em>Advanced</em>: Students extend the prefix calculator to allow for storage and recall from variables. More commands are added to the calculator and a simple scripting language is built.</p>
-
           <h3>Week Two</h3>
-          Data structures
-          File manipulation
-          Object oriented programming
-          Introduction to algorithms
-          HTML and CSS
+          <ul>
+            <li>Data structures</li>
+            <li>File manipulation</li>
+            <li>Object oriented programming</li>
+            <li>Introduction to algorithms</li>
+            <li>HTML and CSS</li>
+          </ul>
 
           <p>Week two introduces more rigorous computer science, exploring the usage of lists and dictionaries for solving different classes of problems. The notion of algorithmic complexity is introduced, and students are asked to analyze their solutions in terms of time and space usage. The python memory model is explained from a high level.</p>
 
@@ -249,13 +262,14 @@
 
 
           <h3>Week Three</h3>
-          Problem solving with data structures
-          Markov chains
-          API interaction
-          Regular Expressions
-          Data modeling, relational databases, and SQL
-
-          <p>Week three focuses on doing useful things with all the tools students have learned until this point. Students use dictionaries to build a markov text generator and wire it up to Twitter. This is usually a student’s first exposure to external APIs.</p>
+          <ul> 
+            <li>Problem solving with data structures</li>
+            <li>Markov chains</li>
+            <li>API interaction</li>
+            <li>Regular Expressions</li>
+            <li>Data modeling, relational databases, and SQL</li>
+          </ul>
+          <p>Week three focuses on doing useful things with all the tools students have learned until this point. Students use dictionaries to build a Markov text generator and wire it up to Twitter. This is usually a student’s first exposure to external APIs.</p>
 
 
           <p>There is a brief interlude involving regular expressions before moving onto data modeling with relational databases. Students build a command-line database application for tracking student grades in a classroom setting.</p>
@@ -264,12 +278,13 @@
           <p><em>Advanced</em>: Regular expressions are explained in terms of DFAs and NFAs. The Thompson NFA technique for matching regular expressions is explored.</p>
 
           <h3>Week Four</h3>
-          Web request/response life cycle
-          The Flask web framework
-          Javascript
-          Trees and the DOM
-          Recursive algorithms
-
+          <ul>
+            <li>Web request/response life cycle</li>
+            <li>The Flask web framework</li>
+            <li>Javascript</li>
+            <li>Trees and the DOM</li>
+            <li>Recursive algorithms</li>
+          </ul>
           <p>Students finally synthesize all of their tools and techniques into a web-based task list app built on the Flask framework. Code is constantly reviewed for adherence to current best-practices. Students are shown how to do basic sanitization of user form input before processing as a counter to SQL injection attacks.</p>
 
 
@@ -279,10 +294,11 @@
           <p><em>Advanced</em>: Recursion is taken a step further with memorization and its use in dynamic programming problems. Students look at traditional combinatorial problems (change counting, path counting) and solve them using dynamic programming.</p>
 
           <h3>Week Five</h3>
-          Object-relational mappers
-          Web development best practices
-          Pearson correlation and prediction
-
+          <ul>
+            <li>Object-relational mappers</li>
+            <li>Web development best practices</li>
+            <li>Pearson correlation and prediction</li>
+          </ul>
           <p>Students begin to look at the larger picture of an application. Abstraction, regularity in application design and design patterns are introduced. Functional programming and ORMs are used as examples of how to build maintainable applications, and expand your reach as an individual developer. The week is spent on a single long-form movie rating web application. Pearson correlation is used as an introduction to machine learning and prediction as part of the application. Performance vs increasing abstraction is discussed (and how to compromise).</p>
 
 
@@ -293,7 +309,7 @@
           <p>Students build an independent project in their favored area of study. In the past, this has ranged from practical web applications to more traditional CS projects, including compiler design and construction. Students are encouraged to work on anything that excites them. Instructors provide guidance and act as product and project managers for the duration of the process.</p>
 
 
-          <p>Students use this time to hone the skills they’ve acquired in the first half of the project in preparation for a round of interviews with Hackbright partner companies.</p>
+          <p>Students use this time to hone the skills they've acquired in the first half of the project in preparation for a round of interviews with Hackbright partner companies.</p>
 
         </div>
       </div>
@@ -316,6 +332,7 @@
       $('.tt').tooltip({'placement':'bottom', 'trigger':'hover'});
       $(document).ready(function() {
         $('.tt').tooltip('hide');
+        $('.tt').addClass('text-success');
       });
       
 
