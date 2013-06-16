@@ -413,7 +413,7 @@ you can use the generic selector below, but it's slower:
 body {
   color: #34495e;
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.231;
 }
 input,
@@ -421,7 +421,7 @@ button,
 select,
 textarea {
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
 }
 a {
   color: #16a085;
@@ -470,7 +470,7 @@ h6 {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 14.994px;
+  font-size: 21.419999999999998px;
   /* 15px */
 
   font-weight: 500;
@@ -527,7 +527,7 @@ h6 {
   filter: alpha(opacity=70);
 }
 .btn.btn-large {
-  font-size: 16.996px;
+  font-size: 24.28px;
   /* 17px */
 
   line-height: 20px;
@@ -719,14 +719,14 @@ h6 {
   border-left-width: 6px;
 }
 .navbar {
-  font-size: 15.988px;
+  font-size: 22.839999999999996px;
   /* 16px */
 
 }
 .navbar .brand {
   border-radius: 6px 0 0 6px;
   color: #526476;
-  font-size: 23.996px;
+  font-size: 34.28px;
   /* 24px */
 
   font-weight: 700;
@@ -792,7 +792,7 @@ h6 {
 .navbar .nav > li > a {
   color: #526476;
   font-weight: 700;
-  font-size: 14.994px;
+  font-size: 21.419999999999998px;
   /* 15px */
 
   padding: 29px 20px 27px;
@@ -876,7 +876,7 @@ h6 {
   border-radius: 2px;
   color: #ffffff;
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   padding: 6px 9px;
   text-decoration: none;
 }
@@ -901,7 +901,7 @@ h6 {
 .navbar .btn-navbar:before {
   content: "\e00c";
   font-family: "Flat-UI-Icons";
-  font-size: 21.994px;
+  font-size: 31.419999999999998px;
   font-style: normal;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -923,7 +923,7 @@ h6 {
   box-shadow: none;
 }
 .navbar-inverse {
-  font-size: 16.996px;
+  font-size: 24.28px;
   /* 17px */
 
 }
@@ -964,7 +964,7 @@ h6 {
   padding-left: 22px;
 }
 .navbar-inverse .nav > li > a {
-  font-size: 16.002px;
+  font-size: 22.86px;
   /* 16px */
 
   border-bottom: 2px solid #2c3e50;
@@ -984,7 +984,7 @@ h6 {
   font-size: 0;
   font-weight: 700;
   height: 6px;
-  line-height: 14px;
+  line-height: 20px;
   position: absolute;
   right: 12px;
   text-align: center;
@@ -1215,7 +1215,7 @@ input[type="color"],
   border: 2px solid #bdc3c7;
   color: #34495e;
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   padding: 8px 5px;
   height: 21px;
   text-indent: 6px;
@@ -1591,7 +1591,7 @@ input[type="color"].flat:focus,
   right: 2px;
   line-height: 37px;
   vertical-align: middle;
-  font-size: 19.991999999999997px;
+  font-size: 28.56px;
   /* 20px */
 
   color: #b2bcc5;
@@ -1611,7 +1611,7 @@ input[type="color"].flat:focus,
   line-height: 41px;
 }
 .control-group.small > .input-icon {
-  font-size: 15.988px;
+  font-size: 22.839999999999996px;
   /* 16px */
 
   line-height: 30px;
@@ -1649,7 +1649,7 @@ textarea,
 }
 textarea {
   height: auto;
-  font-size: 14.994px;
+  font-size: 21.419999999999998px;
   /* 15px */
 
   line-height: 24px;
@@ -1823,7 +1823,7 @@ textarea[class*="span"] {
   border: none;
   color: #34495e;
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   margin: 0px;
   padding: 0 0 0 5px;
   outline: 0;
@@ -2151,7 +2151,7 @@ textarea[class*="span"] {
   background: transparent;
   border: none;
   border-right: 2px solid #e4e7ea;
-  font-size: 15.988px;
+  font-size: 22.839999999999996px;
   /* 16px */
 
   margin: 0 9px 0 0;
@@ -2259,7 +2259,7 @@ textarea[class*="span"] {
 .pagination > .btn.previous,
 .pagination > .btn.next {
   margin-right: 8px;
-  font-size: 14px;
+  font-size: 20px;
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -2278,7 +2278,7 @@ textarea[class*="span"] {
   margin-left: 4px;
 }
 .tooltip {
-  font-size: 14px;
+  font-size: 20px;
 }
 .tooltip.in {
   opacity: 1;
@@ -2315,7 +2315,7 @@ textarea[class*="span"] {
 }
 .tooltip-inner {
   background-color: #34495e;
-  line-height: 17.99px;
+  line-height: 25.7px;
   padding: 12px 12px;
   text-align: center;
   width: 183px;
@@ -2596,7 +2596,7 @@ textarea[class*="span"] {
 }
 .has-switch span {
   cursor: pointer;
-  font-size: 14.994px;
+  font-size: 21.419999999999998px;
   font-weight: 700;
   float: left;
   height: 29px;
